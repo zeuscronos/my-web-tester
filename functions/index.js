@@ -9,4 +9,4 @@ app.get('/api/echo', (req, res) => {
   });
 });
 
-exports.api = functions.https.onRequest(app);
+exports.app = functions.https.onRequest(app);
